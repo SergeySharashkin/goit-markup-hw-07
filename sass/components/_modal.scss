@@ -122,7 +122,7 @@
 }
 .modal__consent__label {
   display: inline-block;
-
+position: relative;
   cursor: pointer;
   margin-right: 4px;
   font-weight: 400;
@@ -136,6 +136,7 @@
   margin-right: 7px;
   display: inline-block;
   position: relative;
+ top:4px;
   width: 16px;
   height: 15px;
   border: 2px solid $primary-text-color;
