@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   margin: auto;
-  max-width: 1600px;
+  
 }
 
 .footer-container {
@@ -29,7 +29,6 @@
   text-align: left;
   margin-top: 20px;
   margin-bottom: 0;
-  
 }
 .footer-contacts__label {
   margin-bottom: 9px;
@@ -50,6 +49,8 @@
   letter-spacing: 0.02em;
   text-align: left;
   display: block;
+  padding: 0;
+  margin: 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {

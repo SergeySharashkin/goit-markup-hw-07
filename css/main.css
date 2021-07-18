@@ -12,7 +12,7 @@ html {
 
 body {
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
   letter-spacing: 0.03em;
 }
 
@@ -468,8 +468,7 @@ img {
 
 .page-header {
   margin: auto;
-  max-width: 1600px;
-  border-bottom: 1px solid rgba(47, 48, 58, 0.4);
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header__container {
@@ -616,8 +615,10 @@ img {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button--sec:hover, .button--sec:focus {
@@ -648,7 +649,6 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .features__container {
@@ -725,7 +725,6 @@ img {
 .occupation {
   padding-bottom: 94px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .occupation__container {
@@ -800,7 +799,6 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .team__container {
@@ -937,7 +935,6 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .client__container {
@@ -1013,7 +1010,6 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .footer-container {
@@ -1071,6 +1067,8 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   display: block;
+  padding: 0;
+  margin: 0;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1232,7 +1230,6 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
   margin: auto;
-  max-width: 1600px;
 }
 
 .choice {
@@ -1275,6 +1272,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 0;
   list-style: none;
   padding: 0;
 }
