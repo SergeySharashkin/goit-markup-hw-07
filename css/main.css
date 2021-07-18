@@ -1044,9 +1044,10 @@ img {
   color: #ffffff;
   text-align: left;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
-.footer-contacts__address p {
+.footer-contacts__label {
   margin-bottom: 9px;
 }
 

@@ -28,9 +28,11 @@
   color: $hero-text-color;
   text-align: left;
   margin-top: 20px;
-  & p {
-    margin-bottom: 9px;
-  }
+  margin-bottom: 0;
+  
+}
+.footer-contacts__label {
+  margin-bottom: 9px;
 }
 
 .footer-contacts__list {
