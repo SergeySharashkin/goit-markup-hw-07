@@ -63,7 +63,7 @@ img {
 }
 
 .hero {
-  background-color: var(--hero-bgr-color);
+  background-color: #2f303a;
   margin: auto;
   max-width: 1600px;
 }
@@ -82,9 +82,9 @@ img {
   margin-right: auto;
   background-color: #2f303a;
   background-size: cover;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url("/images/Img17.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url("/images/Img17.jpg");
   background-position: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url("/im");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url("/im");
 }
 
 .hero__tittle {
@@ -120,6 +120,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
+  padding: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -496,6 +497,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-left: auto;
+  padding: 0;
 }
 
 .contacts__item {
@@ -537,7 +539,7 @@ img {
 }
 
 .hero {
-  background-color: var(--hero-bgr-color);
+  background-color: #2f303a;
   margin: auto;
   max-width: 1600px;
 }
@@ -556,9 +558,9 @@ img {
   margin-right: auto;
   background-color: #2f303a;
   background-size: cover;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url("/images/Img17.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url("/images/Img17.jpg");
   background-position: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url("/im");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url("/im");
 }
 
 .hero__tittle {

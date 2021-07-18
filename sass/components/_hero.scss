@@ -1,5 +1,5 @@
 .hero {
-  background-color: var(--hero-bgr-color);
+  background-color: $hero-bgr-color;
   margin: auto;
   max-width: 1600px;
 }
@@ -17,13 +17,14 @@
 
   background-color: $hero-bgr-color;
   background-size: cover;
+  background-position: center;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.6),
       rgba(47, 48, 58, 0.6)
     ),
-    url('/images/Img17.jpg');
-  background-position: center;
+    url('/im'); 
+ 
 }
 .hero__tittle {
   color: $hero-text-color;
