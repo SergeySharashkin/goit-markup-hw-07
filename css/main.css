@@ -12,7 +12,7 @@ html {
 
 body {
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -45,7 +45,7 @@ img {
 .logo {
   color: #2196f3;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
